@@ -1,0 +1,7 @@
+export TARURL="https://example.com/some-tar-file.tar.xz"
+export TAREXTRACT="tar xvf some-tar-file.tar.xz"
+
+function build-SomeTarFile {
+    make
+    make install
+}
