@@ -1,0 +1,4 @@
+function build-SomeTarFile {
+    make
+    make install
+}
